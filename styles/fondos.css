@@ -1,0 +1,23 @@
+.grid-container3{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+  background-color: gray;
+  padding: 15px;
+}
+.grid-container3>div{
+  width: 25vw;
+  height: 50vh;
+  margin: 15px;
+  padding: 15px;
+  border: 2px solid black;
+}
+.Plano{
+  background: aqua;
+}
+.Gradiente{
+  background: linear-gradient(to right, red , blue);
+}
+.Imagen{
+  background-image: url(/assets/imagenes/fondo.avif);
+}
